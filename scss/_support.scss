@@ -1,0 +1,57 @@
+.support{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 80px;
+    
+    
+    &__items{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 0px 80px;
+
+        .fa-solid{
+            font-size: 69px;
+            color: #FF6875;
+        }
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    &__info{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 80px;
+        
+        input{
+            font-size: 20px;
+            width: 40%;
+            height: 60px;
+            padding: 5px;
+            border: 1px solid rgba(0, 0, 0, 0.178);
+            
+        }
+        
+    }
+
+
+    &__btn{
+        font-size: 20px;
+        width: 10%;
+        background-color: rgba(0, 0, 255, 0.459);
+        color: white;
+        border: none;
+    }
+
+
+}

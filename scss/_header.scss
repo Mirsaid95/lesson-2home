@@ -1,0 +1,48 @@
+.header{
+    width: 100%;
+    margin-top: 5px;
+
+    &__boxs{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: whitesmoke;
+
+    }
+
+    &__selects{
+        display: flex;
+        gap: 20px;
+    }
+    &__select{
+        display: flex;
+        border: none;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    &__lists{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__link{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: black;
+    }
+
+    &__btn{
+        border: none;
+
+    }
+}

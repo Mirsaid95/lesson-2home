@@ -1,0 +1,38 @@
+.headerTop {
+    background-color: whitesmoke;
+    border-top: 1px solid rgba(27, 26, 26, 0.397);
+
+
+    &__boxs{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__links {
+        width: 100%;
+        display: flex;
+        gap: 50px;
+
+    }
+
+    &__link {
+
+
+        a {
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+    }
+
+    &__color{
+        font-size: 18px;
+        font-weight: 550;
+        color: blue;
+    }
+
+
+}
